@@ -54,3 +54,12 @@ command:
         kubectl exec -it <pod-name> -n production -- /bin/bash
         echo $APP_ENV
         echo $DB_PASSWORD
+
+
+# Conclusion
+The production environment was successfully deployed with the following features:
+
+-Three replicas of the application.
+-Secure environment variable configurations using ConfigMaps and Secrets.
+-Exposed service for external access.
+-Verified deployment and environment variables inside the pods.
